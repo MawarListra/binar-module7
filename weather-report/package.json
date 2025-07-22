@@ -7,6 +7,7 @@
     "start": "node dist/app.js",
     "dev": "ts-node src/app.ts",
     "build": "tsc",
+    "lint": "eslint src/ source/",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
@@ -32,6 +33,7 @@
     "@types/morgan": "1.7.35",
     "@types/node": "10.12.0",
     "@types/node-fetch": "^2.6.12",
+    "eslint": "^9.31.0",
     "ts-node": "^10.9.2",
     "typescript": "^5.8.3"
   }
